@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<style>
+    /* .section {
+        text-align: center;
+    }
+
+    #button {
+        color: black;
+        padding: 10px;
+        border-radius: 4px;
+        border: 2px solid teal;
+        cursor: pointer;
+    }
+
+    #increment {
+        color: red;
+    }
+
+    #button:hover {
+        transition-duration: .5s;
+        background-color: teal;
+        color: white;
+    /* } --> 
+    img {
+        object-fit: cover;
+        align-items: center;
+
+    }
+
+    .slider {
+        text-align: center;
+    } */
+    /* .para{
+        font-size: 2rem;
+        color: red;
+        font-style: italic;
+    }
+    .animation{
+       font-size: 100px;
+    }
+    .this1{
+        display: none;
+    } */
+
+/* .b {
+    font-size: 50px;
+    transition-duration: 1s;
+    color: red;
+}
+.but {
+    transition-duration: 1s;
+    font-size: 20px;
+    background-color: rgb(255, 87, 34) ;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 10px 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.anim {
+    box-shadow: 0 15px 18px 0 tomato;
+    opacity: 0.5;
+}
+
+div1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+.center1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.fade{
+    transition-duration: 1s;
+    font-size: 30px;
+    color: red;
+} */
+</style>
+<body> 
+<script>
+let mes = 'This is Message'
+let b = mes.toLowerCase()
+console.log(b.includes('message'))
+
+
+
+//     let students = [
+//         {
+//             id: 4,
+//             gpa: 3.5
+//         },
+//         {
+//             id: 5,
+//             gpa: 4.5
+//         },
+//         {
+//             id: 6,
+//             gpa: 5
+//         }
+//     ]
+    
+//     let s = students.find((x) => {
+//        return x.gpa > 4
+//     })
+//     // let s = students.findIndex((x) => {
+//     //    return x.gpa > 4
+//     // })
+
+//     console.log(s.gpa)
+
+// starstWth()
+
+// const studentInfo = ({name, age, occupation}) => {
+// console.log(`My name ${name} and I am ${age}. My pation is ${occupation}`)
+// }
+
+// const obja = {
+//     name: 'Mohi', 
+//     age: '36',
+//     occupation: 'Coding', 
+// }
+// const obj = {
+//     name: 'Hasan', 
+//     age: '26',
+//     occupation: 'Digital Marketer', 
+// }
+
+// studentInfo(obj)
+
+    //   let num = [2,3,4,5,6]  
+    //   let square = num.map(x=>{
+    //       return x*x
+    //   })
+    // // console.log(square)
+
+    //     let filters = num.filter(x => {
+    //       return x < 4
+    //     })
+    //   console.log(filters)
+
+
+        // <canvas id="myCanvas" width="400px" height="300px"></canvas>
+// let num = [12,22,43,55,60]
+// let square = []
+// num.forEach((x) => {
+//     let s = x * x
+//     square.push(s)
+// })
+// console.log(square)
+
+// num.forEach((x, index, arr) =>{
+//     arr[index] = x + 5
+// })
+
+// console.log(num)
+
+
+// const r = document.querySelector('#myCanvas');
+// const r = document.getElementById('myCanvas');
+// let ctx = r.getContext('2d');
+
+// ctx.lineWidth = 5;
+
+// ctx.fillStyle = 'green';
+// ctx.strokeStyle = 'black';
+
+// ctx.strokeRect(9, 9, 381, 281)
+// ctx.fillRect(10, 10, 380, 280);
+
+// let centerX = r.width/2;
+// let centerY = r.height/2;
+
+// ctx.beginPath();
+// ctx.arc(centerX, centerY, 80, 0, 2*Math.PI, false);
+// ctx.fillStyle = 'red';
+// ctx.fill();
+// ctx.stroke();
+
+
+
+
+// let input = document.querySelector('input');
+// let button = document.querySelector('button')
+//             const p = document.querySelector('p');
+// button.addEventListener("click", err)
+
+// function err(){
+//     try {
+//         if(input.value > 1 && input.value < 10){
+//             console.log('It is ok')
+//         } else{
+//            throw "Insert valid value"
+//         }} catch (error) {
+//         p.textContent = error
+//         p.textContent.classList.add(fade)
+//         setTimeout(() =>{
+//         p.textContent = '';
+
+// },2000)}}
+
+
+
+
+
+
+// console.log(window)
+// try {
+//     document.write("This is from catch" + '<br/>')
+//     document.write(Cool)
+// } catch (error) {
+//     console.log(error)
+// }finally{
+//     document.write("This is from catch" + '<br/>')
+// }
+
+// document.write('This is after finally')
+
+
+// setTimeout(() => {
+//     console.log('Settimeout function')
+// }, 2000);
+
+
+// var p = document.querySelector('p');
+// let clock = document.querySelector('button');
+// console.log(p)
+// clock.addEventListener('click', showTime)
+// let diff = d.getTimezoneOffset();
+// console.log(diff)
+
+// function showTime(){
+//     let date = new Date();
+//     let hours = date.getHours();
+//     let minutes = date.getMinutes();
+//     let seconds = date.getSeconds();
+    
+//     hours = formatTime(hours)
+//     minutes = formatTime(minutes)
+//     seconds = formatTime(seconds)
+//     let time = hours + ':' + minutes + ':' + seconds;
+//     p.textContent = time;
+//     setInterval( showTime, 1000 )
+// } 
+// function formatTime(q){
+//     if(q <10){
+//         q = '0' + q
+//     } 
+//     return q;
+// }
+
+
+
+
+// function time(e) {
+//     console.log(e)
+//   var d = new Date();
+//   var s = d.getSeconds();
+//   var m = d.getMinutes();
+//   var h = d.getHours();
+//   span.textContent = 
+//     (("0" + s).substr(-2))
+// }
+
+// setInterval(time, 1000);
+
+// function welcome(){
+// let write = document.createElement('h1')
+// let text;
+// let name = prompt('Enter you name: ')
+// if(name == null || name == ''){
+//     text = 'Input some text';
+// }else{
+//     text ="Welcome " + name;
+// }
+// let textNode = document.createTextNode(text);
+// write.appendChild(textNode);
+// document.body.appendChild(write)
+// console.log(write.textContent)
+// }
+
+// welcome()
+
+// function destry(){
+//     let q = confirm('Do you want to Delete')
+//     if(q){
+//         document.write('File is Deleted')
+//     } else{
+//         document.write('File is not Deleted')
+
+//     }
+
+// }
+// destry()
+// const visit = document.querySelector('button');
+
+// visit.addEventListener('click', function(){
+//     location.assign('https://www.google.com')
+// })
+
+
+
+
+
+// const div = document.querySelector('div');
+// const image = document.querySelector('img');
+// const p = document.querySelector('p')
+
+
+
+
+
+
+// image.addEventListener('dragstart', function(e){
+//     console.log('image clicked')
+//     e.dataTransfer.setData('Text', e.target.id);
+// })
+// div.addEventListener('dragover', function(e){
+//     e.preventDefault();
+// })
+// div.addEventListener('drop', function(e){
+// //    let bd = e.dataTransfer.getData('Text');
+//    div.appendChild(image)
+// })
+
+// p.addEventListener('dragstart', function(e){
+//     console.log('clicked')
+//     e.dataTransfer.setData('Text', e.target.id);
+// })
+// div.addEventListener('dragover', function(e){
+//     e.preventDefault();
+// })
+// div.addEventListener('drop', function(e){
+// // et bd = e.dataTransfer.getData('Text');
+//    let c = div.appendChild(p);
+//     c.classList.add('center')
+// })
+
+
+
+// const input = document.querySelector('input');
+// input.addEventListener('focus', function(){
+//     input.style.backgroundColor = 'red'
+// })
+// input.addEventListener('focusout', function(){
+//     input.style.backgroundColor = 'blue'
+// })
+// input.addEventListener('blur', function(){
+//     input.style.backgroundColor = 'teal'
+// })
+
+    //     const focus2 = document.querySelector('input');
+    // focus2.addEventListener('focus', function(){
+    //     console.log('blur')
+    // })
+    //     const focus3 = document.querySelector('input');
+    // focus3.addEventListener('focus', function(){
+    //     console.log('focusin')
+    // })
+    //     const focus4 = document.querySelector('input');
+    // focus4.addEventListener('focus', function(){
+    //     console.log('focusout')
+    // })
+        
+        
+        
+        //  
+        // <video width="500px" controls loop muted autoplay>
+        //     <source src="/video.mp4" type="video/mp4" >
+        //     Sorry, Your Browser does not support html5 video element. 
+        //     </video>
+// const video = document.querySelector('video') 
+// let count = 0;
+// const win = window.addEventListener('keydown', function(e){
+//   count++
+//     // console.log(count)
+//     if(e.keyCode== 32 && count%2 == !0){
+//       console.log(count)
+//       video.pause()
+//     } else{
+//         video.play()
+//     }
+//     console.log(e)
+//     if(e.keyCode == 77){
+//         console.log(count)
+//         video.volume = 0
+//     } else{
+//         video.volume = 0.2
+//     }
+// })
+//  
+
+//  video.addEventListener(('volumechange','keydown'), function(e){
+//     count++
+//     console.log(e.keyCode)
+//     if(e.keyCode == 77 || count%2 == !0){
+//         console.log('Volume', count)
+//         video.volume = 0.5
+//         console.log(e.volume)
+//     } else{
+       
+//         console.log('Volume++++++++++++', count)
+//     }
+// })
+
+
+  
+
+
+//    const video = document.querySelector('video')
+//         .addEventListener('canplay', function(){
+//         console.log('canplay ')
+//          }) 
+
+
+// video.addEventListener('pause', function(){
+//     console.log('Puase')
+// })
+
+// video.addEventListener('play', function(e){
+//     console.log(' play')
+//     console.log(e)
+// })
+// video.addEventListener("mouseover", function(e){
+//     video.pause()
+//     console.log(e)
+// })
+
+// const detail = document.querySelector('details').addEventListener('toggle', function(e){
+//     if(e.target.open){
+//         document.querySelector('details').innerText = 'Physics'
+//         console.log(e)
+//     }
+//         else{
+//             console.log("Toggle close")
+//             document.querySelector('details').innerHTML = 'Web'
+//             console.log(document.querySelector('summary').innerText)}
+// });
+
+
+// window.addEventListener('resize', function(){
+//     let width = window.outerWidth;
+//     let height = window.outerHeight;
+//     console.log(width, height)
+// })
+
+
+// window.addEventListener("scroll", function(){
+//     console.log('Scrolling')
+// });
+
+
+// window.addEventListener('load', function(){
+//     console.log('Load')
+// })
+// window.addEventListener('unload', function(){
+
+//     console.log('UNLoad')
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const form = document.querySelector('form');
+// const name = form.querySelector('#name');
+// const email = form.querySelector('#email');
+// const password = form.querySelector('#password');
+// // console.log(password)
+// form.addEventListener('submit', fn)
+
+// function fn(e){
+//     e.preventDefault();
+// let userInfo = {
+//     name: name.value,
+//     email: email.value,
+//     password: password.value
+// }
+// console.log(userInfo)
+// name.value = "";
+// email.value = "";
+// password.value = "";
+// }
+
+
+
+
+// console.clear();
+// const q = document.querySelector('textarea');
+// let p = q.addEventListener('change', fn)
+
+// function fn(e){
+//    console.log(e.target.value)
+// }
+
+
+
+
+
+
+// const q = document.querySelectorAll('input[name=Pro]');
+// console.log(q)
+// Array.from(q).map((Pro) => {
+//     Pro.addEventListener('change', phand)
+// })
+
+// function phand(e){
+//     console.log(e.target)
+//     if(e.target.checked){
+//         console.log(e.target.value)
+// }
+// }
+
+
+// let count = 0;
+// document.querySelector('textarea').addEventListener('keypress', function(e){
+//     // let key = e.key;
+
+//     if(e.keyCode === 'Delete'){
+//         count--
+//         console.log('Negative', count)
+//         document.getElementById('demo').innerHTML = "Your count is " + count + ' time';
+//     } else{
+//         count++
+//         // console.log('Negative', count)
+//         document.getElementById('demo').innerHTML = "Your count is " + count + ' time';
+//     }
+// })
+
+// var input = document.getElementById('myInput');
+// input.onkeydown = function(event) {
+//     var key = event.keyCode || event.charCode;
+//     if( key == 8 ){
+//     	console.log('Backspace')
+//     }
+// }
+
+        // <button class= "but">a</button>
+        // <button class= "but">b</button>
+        // <button class= "but">c</button>
+// let aud = document.querySelectorAll('button').length
+
+// for(let i = 0; i < aud; i++){
+//     document.querySelectorAll('button')[i].addEventListener('click', function () {
+//         let text = this.innerHTML;
+//         console.log(text)
+//         audio(text)
+//         // document.querySelectorAll('button')[i].classList.add('anim')
+//         anim(i)
+//     })}
+
+
+// function audio(text){
+//     switch(text){
+//             case "a" :
+//                 let audio = new Audio('/a.mp3');
+//                 audio.play()
+//                 console.log(text)
+//                 break;
+//                 case "b":
+//                     let audio2 = new Audio('/a.mp3');
+//                     audio2.play()
+//                     console.log(text)
+//                 break;
+//             case "c" :
+//                 // let audio1 = new Audio('/a.mp3');
+//                 // audio1.play()
+//                 // audio1.
+//                 // Audio.pause()
+//                 break;
+//         }
+// }
+
+// function anim(i){
+//     document.querySelectorAll('button')[i].classList.add('anim')
+//     setTimeout(() => {
+//             document.querySelectorAll('button')[i].classList.remove('anim')
+//         }, 2000);
+
+// }
+
+
+// document.addEventListener("keypress", function(event){
+//     let key = event.key;
+//     // console.log(key)
+//     audio(key)
+// })
+
+
+
+
+
+
+
+
+// let button = document.querySelectorAll('button')
+// console.log(button)
+// for(let i = 0; i < button.length; i++){
+//     document.querySelectorAll('button')[i].addEventListener('click', function () {
+//     let text = this.innerHTML
+//     document.querySelector('#demo').innerHTML = text + ' is clicked!'
+//     document.querySelector('#demo').classList.remove('vo')
+// })
+// }
+
+
+// document.querySelectorAll('button')[1].addEventListener('click', function () {
+//     let text = this.innerText
+//     document.querySelector('#demo').innerHTML = text + ' is clicked!'
+// })
+// document.querySelectorAll('button')[2].addEventListener('click', function () {
+//     let text = this.innerHTML
+//     document.querySelector('#demo').innerHTML = text + ' is clicked!'
+//     document.querySelector('#demo').classList.add('vo')
+// })
+
+
+
+
+
+
+
+
+
+//     let count = 0;
+//     let count1 = 0;
+//     let sum = 0;
+//     let sum1 = 0;
+//     let q = document.querySelector('h1')
+// q.addEventListener("click", function () {
+//     document.querySelector('h1').classList.add('b')
+//     console.log("Mouse Enter")
+//     // count++
+//     // sum = sum + count
+//     // console.log(`Mouse Enter ${sum} times`)
+// })
+// q.addEventListener("click", function () {
+//     document.querySelector('h1').classList.remove('b');
+//     console.log("Mouse Leave")
+//     count1++
+//     // console.log(count1)
+//     // sum1 = sum1 + count1
+//     console.log(`Mouse Leave ${count1} times`)
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function addStyle(){
+//     let myStyle =document.querySelector('.para-style')
+//     myStyle.classList.add('para');
+//     myStyle.classList.remove('animation')
+// }
+// function removeStyle(){
+//     let myStyle =document.querySelector('.para-style')
+//     myStyle.classList.remove('para1');
+//     myStyle.classList.add('animation1')
+//     let hide = document.querySelector('.hide')
+//     hide.classList.add('para')
+// }
+
+
+
+
+// <div class="slider">
+//         <button onclick="prev()">Previous</button>
+//         <img src="https://images.pexels.com/photos/241316/pexels-photo-241316.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+//             alt="Slider image" width="500px" height="500">
+//         <button onclick="next()" id="end">Next</button>
+//     </div>
+
+
+        // let photos = [
+        //     '/photos/1.jpeg',
+        //     '/photos/2.jpeg',
+        //     '/photos/3.jpeg',
+        //     '/photos/4.jpeg', 
+        // ]
+        // let image = document.querySelector('img');
+        // let count = 0;
+
+        // function next() {
+        //     count++;
+        //     if (count >= photos.length) {
+        //         count = 0;
+        //         image.src = photos[count]
+        //     } else {
+        //         image.src = photos[count]
+        //     }
+        // }
+        
+        // function prev() {
+        //     count--;
+        //     if (count < 0) {
+        //         count = photos.length - 1;
+        //         image.src = photos[count];
+        //     } else {
+        //         image.src = photos[count]
+        //     }
+        // }
+
+// Increment and Decrement
+        // let clicked = false;
+        // function incrementValue() {
+        //     if (clicked === false) {
+        //         document.getElementById('increment').innerHTML = parseInt(document.getElementById('increment').innerHTML) + 1
+        //         document.getElementById('button').innerHTML = 'Decrement'
+        //         clicked = true;
+        //     } else {
+        //         document.getElementById('increment').innerHTML = parseInt(document.getElementById('increment').innerHTML) - 1;
+        //         document.getElementById('button').innerHTML = 'Increment'
+        //         clicked = false;
+        //     }
+        // }
+
+        // from adi..
+        // function incrementValue(){
+        //     if(clicked === false){
+        //         value++
+        //         document.getElementById('increment').innerHTML = value;
+        //         clicked = true;
+        //     } else{
+        //         value--
+        //         document.getElementById('increment').innerHTML = value;
+        //         clicked = false;
+        //     }
+        // }
+
+        // clicked = false;
+        // function incrementValue(){
+        //     if(clicked === true){
+        //         value++
+        //         document.getElementById('increment').innerHTML = value;
+        //         clicked = true;
+        //     } else{
+        //         value--
+        //         document.getElementById('increment').innerHTML = value;
+        //         clicked = false;
+        //     }
+        // }
+
+
+        // function incrementValue() {
+        //     let value = document.getElementById('increment').innerHTML;
+        //     value++;
+        //     console.log(value)
+        //     document.getElementById('increment').innerHTML = value
+        // }
+
+
+
+    // c++
+    // document.write("<button> Click Me </button>")
+    // document.write(c)
+
+
+
+
+
+
+        // function visit(visible) {
+        //     let image = document.querySelector('#demo');
+        //     image.src = 'https://images.pexels.com/photos/9404467/pexels-photo-9404467.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500';
+        //     // let button = document.createElement("<button> Hide </button>")
+        //     image.style.visibility = (visible ? 'hidden' : 'visible')
+        // }
+        // function hide(visible) {
+        //     var img = document.getElementById('demo');
+        //     img.style.visibility = (visible ? 'visible' : 'hidden');
+        // }
+
+        // let firstname = prompt('User firstname: ')
+        // document.write(firstname)
+        // let f = 'Mohammed';
+        // let l = ' Mohiuddin';
+        // document.write(f.concat(l))
+        // let f = 'Mohammed';
+        // let l = ' Mohiuddin';
+        // let fullName1 = indexOf(2)(f + l)
+        // let fullName = (f + l).toUpperCase()
+        // document.write(fullName)
+        // document.write(fullName1)
+        // document.write(all)
+        // let num1 = prompt("Enter num1; ");
+        // let num2 = prompt("Enter num2; ");
+
+        // num1 = parseInt(num1, 10)
+        // num2 = parseInt(num2, 10)
+
+        // let mutiplication = num1 + num2;
+
+
+        // let sum = num1 + num2;
+        // let sub = num1 - num2;
+
+        // document.write(num1 + "+" + num2 + "= " + mutiplication )
+        // document.write("Substraction5 of num2 & num1 is " + sub)
+
+        // let width =parseInt(prompt("Enter width: ="))
+        // let height =parseInt(prompt("Enter height: ="))
+
+        // let area = width * height
+
+
+
+
+        // if (marks > 100 || marks < 0)
+        //     document.write("Invalid Marks")
+        // else if (marks >= 80 && marks <= 100)
+        //     document.write(`You have got A+ and your Marks is ${marks}`)
+
+        // else if (marks >= 70 && marks < 80)
+        //     document.write(`You have got A and your Marks is ${marks}`)
+
+        // else if (marks >= 60 && marks < 70)
+        //     document.write(`You have got B and your Marks is ${marks}`)
+
+        // else if (marks >= 50 && marks < 60)
+        //     document.write(`You have got C and your Marks is ${marks}`)
+
+        // else if (marks >= 40 && marks < 50)
+        //     document.write(`You have got D and your Marks is ${marks}`)
+        // else (document.write(`You have got f and your Marks is ${marks}`))
+
+
+        // let num1 = parseInt(prompt("Input Number 1: "))
+        // let num2 = parseInt(prompt("Input Number 2: "))
+        // let num3 = parseInt(prompt("Input Number 3: "))
+
+
+        // if (num1 > num2 && num1 > num3)
+        //     document.write(`The greates Number is : ${num1}`)
+
+        // else if (num2 > num1 && num2 > num3)
+        //     document.write(`The greates Number is : ${num2}`)
+
+        // else if (num3 > num1 && num3 > num2)
+        //     document.write(`The greates Number is : ${num3}`)
+
+        // else
+        //     document.write("Invalid Numberllllllllllllllllll")
+
+        // let letter = prompt('Input letter').toLowerCase();
+
+
+
+
+        // if (letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u')
+        //     document.write('It is Vowel')
+        // else
+        //     document.write('It is consonent')
+
+        // let letter = prompt('Input letter').toLowerCase();
+
+        // switch(letter){
+        //     case 'a' || 'e' || 'i' || 'o' || 'u':
+        //         document.write('It is Vowel')
+        //         break;
+        //         default:
+        //         document.write('It is consonent')
+        // }
+
+        // for(i = 100; i >= 1; i= i-1){
+        //     document.write(' '+ i)
+        // }
+
+        // let i = parseInt(prompt("Enter a Starting Valu-- "))
+        // let e = parseInt(prompt("Enter a ultill-- "))
+
+
+        //     let sum = 0;
+        //     for(i; i <= e; i++){
+        //         sum = sum + i;
+        //     }
+        //     document.write(sum)
+
+        // let i = parseInt(prompt("Enter a Starting Valu-- "))
+        // let e = parseInt(prompt("Enter a ultill-- "))
+        // let sum = i + e;
+
+        // for (i = 1; i <= 2; i++) {
+        //     let num1 = parseInt(prompt("Enter a Starting Valu-- "))
+        //     let end= parseInt(prompt("Enter a ultill-- "))
+        //     let sum = num1 + end;
+        //     console.log(sum)
+        //     // document.write(sum)
+        // }
+
+        // let i = 2;
+        // let sum = 0;
+        // while(i <=100){
+        //     sum = sum + i;
+        //     i = i+2;
+        // }
+        //         document.write(sum)
+
+        // write a program that will print sum of
+        // all the numbers that are divisible by 3 and 5 from 1-100
+
+        // let sum = 0;
+        // for(i =1; i<= 10; i++){
+        //     if(i%3 == 0 && i%5 == 5){
+        //         sum = sum + i;
+        //     }
+        // }
+        // document.write(sum)
+
+        // let i = 1;
+        // let sum = 0;
+        // while (i <= 100) {
+        //     if (i % 3 == 0 && i % 5 == 0) {
+        //         document.write(i + "<br/>")
+        //         sum = sum + i
+        //     };
+        //     i = i + 1;
+        // }
+        // document.write(sum)
+
+
+        // let i = 11;
+        // do {
+        //     document.write(i+"<br/>")
+        //     i++
+        // } while (i <= 100)
+
+        // for(i = 1; i <= 100; i++){
+        //     if(i%2 == !0){
+        //         continue;
+        //     }
+        //     document.write(" "+i)
+        // }
+        // let number = Number(prompt('Enter a Number: '));
+        // if(number > 0){
+        //     document.write(`${number} is Positive`);
+        // } else if(number < 0){
+        //     document.write(`${number} is Negative`);
+        // }else{
+        //     document.write(`${number} is Zero`);
+        // }
+        // let result = number > 0 ? `${number} is Positive` : number < 0 ? `${number} is Negative` : `${number} is Zero`
+        // document.write(result)
+
+        // function
+        // function multiply(num){
+        //   return num * num;
+
+        // }
+        // let x = multiply(9)
+
+        // document.write(x)
+
+        // add Function
+        // (function addfn(a, b){
+        //     return document.write(a + b)
+        // })(Number(prompt("Enter Number")), Number(prompt("Add Number")))
+
+        // let makeFn = function multiply(a, b){
+        //     let c = a*b
+        //     document.write(c)
+        // }
+
+        // makeFn(10, 2)
+        // let coun1 = ['a', 'b']
+        // let coun2 = ['c', 'd']
+
+        // let all = coun1.concat(coun2)
+        // document.write(all)
+
+        // let num = new Array()
+
+        // for(i = 0; i <= 2; i++){
+        //     num[i] = parseInt(prompt("enter number"))
+        //     document.write(num[i] + "<br/>")
+        // }
+
+        // let sum = 0;
+
+        // for(let i= 0; i < num.length; i++){
+        // //    document.write(num[i]+ '<br/>')
+        //    sum = sum + num[i]
+        // //    document.write(sum + '<br/>')
+        // }
+        // document.write(sum)
+
+        // let arr = ['boo', 'boodfd', 'goo', 'cool']
+        // console.log(arr)
+
+        // let newf = arr.slice(1)
+        // console.log(newf)
+        // let num = [5, 3, 10, 8, 11];
+
+        // num.sort(function(a, b){
+        //     let sr = (a-b)
+        //    return sr
+        // })
+        // document.write(num)
+
+        // let letter = ['a', 'b', 'c', 'd'];
+
+        // for(let i = 0; i < letter.length; i++){
+        //     document.write(letter[i]+'<br/>')
+        // }⁡
+        // let scores = [45, 500, 1000, 55, 65, 90, 100, 200]
+        // let sorting = score.sort(function (a, b) {
+        //     return a - b
+        // })
+        // let highScore = sorting.pop(scores)
+        // document.write(highScore)
+
+        //         let score = [45, 500, 1000, 55, 65, 90, 100, 200]
+        //         let highestScore = (scores) =>{
+        //             let sorting = scores.sort((a, b)=> {
+        //                 return a-b
+        //             })
+        //             let highest = sorting.pop()
+        //             return highest
+        //         }
+        //         // document.write(highestScore(scores))
+
+        //         var scores = [266, 35, 150, 181, 490, 1000, 407, 155, 253, 445, 74]
+
+        // var highestScores = (score)=>score.sort((a,b)=>a-b)[scores.length-1]
+
+        // document.write(highestScores(scores))
+
+
+        // function topper(marks){
+        //  let high_marks = marks[0][1]
+        // for(i = 1; i < marks.length; i++){
+        //     if(high_marks < marks[i][1]){
+        //         high_marks = marks[i][1]
+        //         high_marks = marks[i][0]
+        //     }
+        // }
+        // console.log(high_marks)
+        // }
+        // let marks = [
+        //     ['Mizan', 86],
+        //     ['Bullet', 56],
+        //     ['Kahn', 40],
+        //     ['Mulet', 80],
+        //     ['Shimul', 90],
+        // ]
+
+        // topper(marks)
+
+        // objects
+
+        // function Hospital(doctor, nurse, teatment, employee){
+        //     this.doctor_name = doctor;
+        //     this.nurse = nurse;
+        //     this.treatment = teatment;
+        //     this.employee = employee;
+        //     this.print = function(){
+        //         document.write(JSON.stringify(info))
+        //         console.log(info)
+        //         console.log(info1)
+        //         console.log(info2)
+        //     }
+        // }
+
+        // let info =new Hospital('Kalam', 'Shamim', ['fever', 'headach', 'pain'], 120)
+        // let info1 =new Hospital('Kalam22', 'Shamim', ['fever11', 'headach', 'pain'], 120)
+        // let info2 =new Hospital('Kalam55', 'Shamim', ['fever', 'headach', 'pain'], 120)
+
+        // info.print()
+
+        // console.log(info)
+        // document.write(info)
+
+        //  Game
+
+        // let attempt = 0;
+        // let lost = 0;
+
+        // for(i = 1; i <=5; i++){
+        // let guess = Number(prompt("Guess Your Number 1-10 "))
+        // let mathp = Math.floor(Math.random()*10) + 1
+
+        // if(guess == mathp){
+        //       document.write("<img src='https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt=''>" + "<br/>");
+        //     attempt++;
+        // }else {
+
+        //     document.write("<img src='https://images.pexels.com/photos/10366557/pexels-photo-10366557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt=''>" + "<br/>"),
+        //     lost++;
+        // }}
+
+        // document.write('Yuo have Won for '+ attempt + "<br/>")
+        // document.write('Yuo have Lost for '+ lost + "<br/>")
+
+
+        // let date = new Date();
+        // let month = date.getMonth()
+        // console.log(month)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+ <script src="/practice.js"></script>
+</body>
+
+
+</html>

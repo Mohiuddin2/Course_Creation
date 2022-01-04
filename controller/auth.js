@@ -76,10 +76,7 @@ res.cookie('token', 'none', {
 // @route PUT /api/vi/auth/auth/updatedetails
 // @access Private
 exports.updateDetails = asyncHandler(async (req, res, next) => {
-  const fieldToUpdate = {
-    name: req.body.name,
-    email: req.body.email,
-  };
+  const fieldToUpdate = {name: req.body.name, email: req.body.email};
 
   const user = await User.findByIdAndUpdate(req.user.id, fieldToUpdate, {
     new: true,

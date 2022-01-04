@@ -8,7 +8,7 @@ const fileupload = require("express-fileupload");
 const cookieParser = require("cookie-parser");
 const mongoSanitize = require("express-mongo-sanitize");
 const helmet = require("helmet");
-// const xss = require("xss-clean");
+const xss = require("xss-clean");
 const rateLimit = require("express-rate-limit");
 const hpp = require("hpp");
 const cors = require("cors");
@@ -46,7 +46,7 @@ app.use(mongoSanitize());
 // helmet middleware for security headers
 app.use(helmet());
 // Enabling XSS Clean to preven script.. attacks
-// app.use(xss());
+app.use(xss());
 
 // Rate Limiting
 const limiter = rateLimit({

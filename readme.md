@@ -1,6 +1,6 @@
-# API Master Project Prod
+# Course Creation API Project Prod
 
-> Backen API for API Mster Project, Which is a Studing different courses directory website.
+> Backend Course Creation API Project, Which is a Studing for different courses directory website.
 
 ## Usage
 
